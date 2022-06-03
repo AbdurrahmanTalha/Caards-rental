@@ -5711,7 +5711,8 @@ ul.head-menu {
   margin-left: 50px;
 }
 .head-img {
-  display: flex;
+  /* display: flex; */
+  margin-top: 47px;
   align-items: center !important;
   justify-content: center;
 }
@@ -6489,19 +6490,21 @@ li.active .head-ic-bg img.inactive {
 
 .margin-negitive {
   margin-bottom: -62px;
-  margin-left: -281px;
-  margin-right: 51px;
+  margin-left: -20%;
   z-index: 3;
+  position: fixed;;
 }
 
 @media (max-width: 768px) {
   .head-img {
+    position: static;
     display: flex !important;
     justify-items: center !important;
     align-items: center !important;
   }
   .margin-negitive {
     margin: 0 !important;
+    /* position: static; */
   }
 }
 
