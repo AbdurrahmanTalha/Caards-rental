@@ -6492,15 +6492,27 @@ li.active .head-ic-bg img.inactive {
   margin-bottom: -62px;
   margin-left: -20%;
   z-index: 3;
-  position: fixed;;
+  position: fixed;
 }
-
+.console-sidemenu{
+  margin-top: 60px;
+}
 @media (max-width: 768px) {
+  header{ 
+    z-index: 0;
+    padding: 50px 20px;
+  }
   .head-img {
+    width: auto;
     position: static;
     display: flex !important;
     justify-items: center !important;
     align-items: center !important;
+  }
+  .head-img img {
+    margin-top: -145px;
+    z-index: 200;
+    width: auto;
   }
   .margin-negitive {
     margin: 0 !important;
