@@ -5710,11 +5710,23 @@ ul.head-menu {
   margin-top: 20px;
   margin-left: 50px;
 }
-.head-img {
-  /* display: flex; */
-  margin-top: 47px;
-  align-items: center !important;
+.logo-company {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  box-shadow: 0 0 10px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 50%;
+  background-color: white;
+}
+.logo-company img {
+  width: 75px;
+  height: 75px;
 }
 .head-ic-bg {
   background-color: #ffffff1c;
@@ -6494,16 +6506,15 @@ li.active .head-ic-bg img.inactive {
   z-index: 3;
   position: fixed;
 }
-.console-sidemenu{
+.console-sidemenu {
   margin-top: 60px;
 }
 @media (max-width: 768px) {
-  header{ 
+  header {
     z-index: 0;
     padding: 50px 20px;
   }
   .head-img {
-    width: auto;
     position: static;
     display: flex !important;
     justify-items: center !important;
